@@ -42,3 +42,5 @@ Component E - Consumes the Context and receives the value
 ```
 
 This approach ensures that the values are passed directly from the component that wants to provide the value to the component that needs to consume that value - bypassing all other components in the hierarchy.
+
+This approach is illustrated in folder [sample-code/02-passing-props-with-useContext](./sample-code/02-passing-props-with-useContext/).
